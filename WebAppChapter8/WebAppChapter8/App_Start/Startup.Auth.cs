@@ -35,7 +35,9 @@ namespace WebAppChapter8
                     //    },
 
                     // this assignment makes the incoming Azure AD roles claims available for use with [Authorize] and IsInRole
-                   //  RoleClaimType = "roles",
+                    // RoleClaimType = "roles",
+                    // this assignment makes the incoming Azure AD groups claims available for use with [Authorize] and IsInRole
+                    // RoleClaimType = "groups",
                 },
                 PostLogoutRedirectUri = "https://localhost:44300/",
                 Notifications = new OpenIdConnectAuthenticationNotifications()
