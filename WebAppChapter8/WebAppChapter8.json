@@ -1,0 +1,80 @@
+{
+  "appId": "818e9037-fc84-46f9-88dd-f8f4738f4e01",
+  "appRoles": [
+    {
+      "allowedMemberTypes": [
+        "User"
+      ],
+      "description": "Approvers can mark documents as approved",
+      "displayName": "Approver",
+      "id": "8F29F99B-5C77-4FBA-A310-4A5C0574E8FF",
+      "isEnabled": "true",
+      "value": "approver"
+    },
+    {
+      "allowedMemberTypes": [
+        "User"
+      ],
+      "description": "Reviewers can read documents",
+      "displayName": "Reviewer",
+      "id": "0866623F-2159-4F90-A575-2D1D4D3F7391",
+      "isEnabled": "true",
+      "value": "reviewer"
+    }
+  ],
+  "availableToOtherTenants": false,
+  "displayName": "WebAppChapter8",
+  "errorUrl": null,
+  "groupMembershipClaims": "all",
+  "homepage": "https://localhost:44300/",
+  "identifierUris": [
+    "https://localhost:44300/WebAppChapter8"
+  ],
+  "keyCredentials": [],
+  "knownClientApplications": [],
+  "logoutUrl": null,
+  "oauth2AllowImplicitFlow": false,
+  "oauth2AllowUrlPathMatching": false,
+  "oauth2Permissions": [
+    {
+      "adminConsentDescription": "Allow the application to access WebAppChapter8 on behalf of the signed-in user.",
+      "adminConsentDisplayName": "Access WebAppChapter8",
+      "id": "fb4538bd-1912-4576-918e-9caf60768019",
+      "isEnabled": true,
+      "type": "User",
+      "userConsentDescription": "Allow the application to access WebAppChapter8 on your behalf.",
+      "userConsentDisplayName": "Access WebAppChapter8",
+      "value": "user_impersonation"
+    }
+  ],
+  "oauth2RequirePostResponse": false,
+  "passwordCredentials": [],
+  "publicClient": null,
+  "replyUrls": [
+    "https://localhost:44300/"
+  ],
+  "requiredResourceAccess": [
+    {
+      "resourceAppId": "00000002-0000-0000-c000-000000000000",
+      "resourceAccess": [
+        {
+          "id": "311a71cc-e848-46a1-bdf8-97ff7156d8e6",
+          "type": "Scope"
+        }
+      ]
+    }
+  ],
+  "samlMetadataUrl": null,
+  "extensionProperties": [],
+  "objectType": "Application",
+  "objectId": "d332632b-967b-4a35-b30a-cccd35c3c6c7",
+  "deletionTimestamp": null,
+  "createdOnBehalfOf": null,
+  "createdObjects": [],
+  "manager": null,
+  "directReports": [],
+  "members": [],
+  "memberOf": [],
+  "owners": [],
+  "ownedObjects": []
+}
